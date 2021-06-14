@@ -5,12 +5,13 @@
   font-family: sans-serif;
 }
 
-body{
-  max-width:1200px;
+main{
+  max-width:1600px;
   margin: 0 auto;
 }
 
 .container-flex {
+  background-color: black;
   display: flex;
   flex-direction: column;
   height: 100vh;
