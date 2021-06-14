@@ -48,6 +48,16 @@ main {
   align-items: flex-end;
 }
 
+main .box:first-child {
+  height: 170px;
+  width: 300px;
+  margin: 5px;
+  background-image: url("../img/io.png");
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
+
 .user-name {
   padding: 5px;
   color: #fff;
