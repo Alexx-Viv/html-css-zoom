@@ -13,57 +13,92 @@
 
 /* HEADER */
 header {
-  height: 40px;
-  background-color: blue;
+  min-height: 40px;
+  background-color: black;
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
 }
 
-.lens{
-    color: #fff;
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 5px;
-    margin-right: 5px;
-    border-radius: 5px;
+.lens {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-right: 5px;
+  border-radius: 5px;
+  padding: 5px;
 }
-
-
 
 /* MAIN */
 main {
-  flex-grow: 1;
-  background-color: brown;
+  background-color: black;
   overflow: scroll;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: flex-start;
 }
 
 .box {
-    height: 170px;
-    width: 300px;
-    background-color: red;
-    margin: 5px;
-    background-image: url("https://picsum.photos//2000/3000");
-    background-size: cover;
-    display: flex;
-    align-items: flex-end;
-  }
+  height: 170px;
+  width: 300px;
+  margin: 5px;
+  background-image: url("https://picsum.photos/id/299/2000/3000");
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
 
-  .user-name{
-      padding: 5px;
-      color: #fff;
-      background-color: rgba(0, 0, 0, 0.5);
-  }
-  
-
+.user-name {
+  padding: 5px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 /* FOOTER */
 footer {
-  height: 110px;
-  background-color: yellow;
+  min-height: 100px;
+  background-color: #222223;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
 }
 
-/* DA ELIMINARE */
+footer .fas:not(.fa-chevron-up) {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
 
+.usefull {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.end {
+  background-color: #4A4A4A;
+  height: 100%;
+  width: 10%;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+footer .col .fas.fa-share-square{
+    color: #4DC702;
+}
