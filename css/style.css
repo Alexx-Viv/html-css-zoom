@@ -97,10 +97,16 @@ footer .fas:not(.fa-chevron-up) {
   color: #fff;
 }
 
+@media (max-width: 1300px){
+  .collapse{
+    display: none;
+  }
+}
+
 .end {
   background-color: #4A4A4A;
   height: 100%;
-  width: 10%;
+  width: 150px;
   color: red;
   display: flex;
   justify-content: center;
